@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>G Shock Static Webpage</title>
+</head>
+<body>
+    <header id="header">
+        <a href="" id="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="86.389" height="14.629" viewBox="0 0 86.389 14.629" preserveAspectRatio="none" class="gshock"><path d="M6.166 5.526h5.54v7.239l-1.863 1.82H1.9L0 12.765V1.825L1.781 0h7.986l1.858 1.825V4.8h-3.54V3.625H3.5v7.421h4.623v-1.9H6.166v-3.62zm6.944 3.6h5.338V5.587h-5.337zm10.322-3.5V3.641h4.625V4.8H31.7V1.826L29.777 0h-8.126l-1.82 1.864v5.382l1.941 1.918h6.206v1.9h-4.586V9.948h-3.579v2.862l1.88 1.777h8.124l1.9-1.739v-5.3l-1.84-1.919h-6.445zm18.311-.039h-4.559V0h-3.607v14.629h3.607V9.186h4.559v5.443h3.6V0h-3.6v5.586zM56.993 0l1.9 1.881v10.884l-1.883 1.82h-8.021l-1.782-1.759V1.9l1.9-1.9h7.888zm-1.7 3.581H50.81v7.464h4.483zM62.676 0l-1.9 1.825v10.941l1.781 1.82h8.121l1.843-1.821V9.109h-3.5v1.958h-4.583v-7.4H69v1.857h3.536v-3.7L70.719 0zm23.713 0h-4.4l-3.9 5.4V0H74.4v14.586h3.683v-5.24l3.843 5.24h4.361l-5.1-7.278z" fill="#ffffff"></path></svg>
+        </a>
+        <nav id="nav-bar">
+            <a href="">40TH ANNIVERSARY</a>
+            <a href="">New Products</a>
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">BRAND</a>
+        </nav>
+        <div id="search-bar">
+            <input type="text" name="search" id="search" placeholder="Search">
+        </div>
+
+        
+          <span class="openBtn" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">40TH ANNIVERSARY</a>
+        <a href="#">MEN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">BRAND</a>
+        <a href="#">Store</a>
+      </div>
+
+    <!--Silde Show of image-->
+    <div class="silde-container">
+       <div class="Silde fade">
+           <img src="./Assets/banner-flare-red-pc.avif" style="width:100%">
+       </div>
+       <div class="Silde fade">
+           <img src="Assets/hero-pc (1).avif" style="width:100%">
+       </div>
+       <div class="Silde fade">
+           <img src="Assets/hero-pc (2).avif" style="width:100%">
+       </div>
+       <div class="Silde fade">
+           <img src="./Assets/hero-pc (3).avif" style="width:100%">
+       </div>
+       <div class="Silde fade">
+           <img src="./Assets/hero-pc (4).avif" style="width:100%">
+       </div>
+       <div class="Silde fade">
+           <img src="./Assets/hero-pc.avif" style="width:100%">
+       </div>
+   
+
+     <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
+    </div>
+
+  <!--New Product Title-->
+  <div class="new-product">
+        <h1>New Products</h1>
+        <div id="button-container">
+        <button>VIEW ALL G-SHOCK</button>
+         </div>
+  </div>
+
+  <div id="topics"><h1>Topics</h1></div>
+
+  <!--Product Card List-->
+  <div class="card-list">
+    <article class="card">
+      <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202102_1733739966/image.casiocoreimg.jpeg/1676370014599/40th-01-800x800-01.jpeg" 
+      alt="Image" class="card-img">
+        <header class="card-header">
+            <p class="card-p1">G-SHOCK 40TH ANNIVERSARY</p>
+            <p class="card-p2">SPECIAL SITE</p>
+        </header>
+    </article>
+
+    <article class="card">
+      <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202104_1134093420/image.casiocoreimg.jpeg/1676371070677/products.jpeg" 
+      alt="Image" class="card-img">
+        <header class="card-header">
+            <p class="card-p1">The FROGMAN 30th anniversary model</p>
+            <p class="card-p2">GWF-A1000FF</p>
+        </header>
+    </article>
+
+    <article class="card">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202108/image.casiocoreimg.jpeg/1676370827503/hero-notext-sp.jpeg" 
+        alt="Image" class="card-img">
+          <header class="card-header">
+              <p class="card-p1">GMW-b5000TCC-1</p>
+              <p class="card-p2">circuit board camouflage design,<br>featuring a super-hard titantum body</p>
+          </header>
+      </article>
+
+      <article class="card">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202102_1293404590/image.casiocoreimg.jpeg/1661829823829/thumb.jpeg" 
+        alt="Image" class="card-img">
+          <header class="card-header">
+              <p class="card-p1">GWT-B5000TVB</p>
+              <p class="card-p2">Cyber gear striaght from the vitual world</p>
+          </header>
+      </article>
+
+      <article class="card">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202104_1987693873/image.casiocoreimg.jpeg/1649049724941/products-sp.jpeg" 
+        alt="Image" class="card-img">
+          <header class="card-header">
+              <p class="card-p1">GBD-200</p>
+              <p class="card-p2">An innovation line of sport watches<br>delivering the strength and functionality<br>that training deamnds</p>
+          </header>
+      </article>
+
+      <article class="card">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202107/image.casiocoreimg.jpeg/1649049753555/products-sp.jpeg" 
+        alt="Image" class="card-img">
+          <header class="card-header">
+              <p class="card-p1">GM-S2100</p>
+              <p class="card-p2">Simple, Compact, and beautiful - a<br>metal-clad watch with a minimalist design</p>
+          </header>
+      </article>
+
+  <article class="card">
+    <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202104/image.casiocoreimg.jpeg/1658734590123/thumb.jpeg" 
+    alt="Image" class="card-img">
+      <header class="card-header">
+          <p class="card-p1">GM-B2100</p>
+          <p class="card-p2">Ocatagonal form with full-metal design</p>
+      </header>
+  </article>
+
+<article class="card">
+    <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202104_1749181844/image.casiocoreimg.jpeg/1650898316722/products-m.jpeg" 
+    alt="Image" class="card-img">
+      <header class="card-header">
+          <p class="card-p1">MTG-B3000</p>
+          <p class="card-p2">Innovation exterior design with fresh<br>sllimline construction</p>
+      </header>
+  </article>
+
+<article class="card">
+    <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_1790102794/content_panel_list/content_panel_202102_795391069/image.casiocoreimg.jpeg/1661829823811/thumb.jpeg" 
+    alt="Image" class="card-img">
+      <header class="card-header">
+          <p class="card-p1">GA-B2100</p>
+          <p class="card-p2">The octagonal form of the 2100 line,now<br>with Smartphone Link & Tough Solar</p>
+      </header>
+  </article>
+</div>
+
+<section class="grid-container">
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_copy_/content_panel/image.casiocoreimg.png/1665732337120/gm-b2100bd-1a.png"
+         alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>NEW IN</p>
+        </div>
+    </article>
+
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_copy__959426711/content_panel/image.casiocoreimg.png/1661829824107/visualheader-gmw-b5000d-1-revised.png" 
+        alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>FULLMETAL</p>
+        </div>
+    </article>
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_copy__1790110685/content_panel/image.casiocoreimg.png/1661829824159/mtg-b2000xmg-1a.png"
+         alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>MTG</p>
+        </div>
+    </article>
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_copy__1348038952/content_panel/image.casiocoreimg.png/1661829824211/gbd-100bar-4-jr.png"
+         alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>LIMITED</p>
+        </div>
+    </article>
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy/content_panel/image.casiocoreimg.png/1661829824251/ga-2100-1a1-jf-dr.png" 
+        alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>ANALOG DIGITAL</p>
+        </div>
+    </article>
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_2094272572/content_panel/image.casiocoreimg.png/1661829824290/gbd-200sm-1a5.png" 
+        alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>G-SQUAD</p>
+        </div>
+    </article>
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_62654/content_panel/image.casiocoreimg.png/1661829824328/dw-5600bb-1-jf-dr-er.png" 
+        alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>ORIGIN</p>
+        </div>
+    </article>
+    <article class="grid-img">
+        <img src="https://gshock.casio.com/content/casio/locales/in/en/brands/gshock/_jcr_content/root/responsivegrid/container_677477071_/container_copy_626548346/content_panel/image.casiocoreimg.png/1672019126225/gst-b100gb-1a9.png" 
+        alt="watch" class="content-img">
+        <div class="grid-header">
+            <p>G-STEEL</p>
+        </div>
+    </article>
+</section>
+
+<footer>
+    <div class="content">
+        <ul class="links">
+            <li class="link-head">Products</li>
+            <li><a>Products</a></li>
+            <li><a>WOMEN</a></li>
+            <li><a>NEW ARRIVALS</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul class="links">
+            <li class="link-head">BRAND</li>
+            <li><a>G-SHOCK Concept</a></li>
+            <li><a>TECHNOLOGY</a></li>
+            <li><a>G-SHOCK WORLD</a></li>
+            <li><a>TEAM G-SHOCK</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <ul class="links">
+            <li class="link-head">Links</li>
+            <li><a>Store</a></li>
+            <li><a>Online Store</a></li>
+        </ul>
+        
+    </div>
+</footer>
+  <script src="./script.js"></script>
+</body>
+</html>
